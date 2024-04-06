@@ -85,8 +85,9 @@
     overflow-wrap: break-word;
     background: var(--nc-bg-1);
     color: var(--nc-tx-2);
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     line-height: 1.5;
+    padding-bottom: 0;
   }
   ::selection {
     background: var(--nc-ac-1);
@@ -100,7 +101,7 @@
   h6 {
     line-height: 1;
     color: var(--nc-tx-1);
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
   }
   h1
   {
@@ -120,13 +121,13 @@
     margin-bottom: 0.5rem;
   }
   h1 {
-    font-size: 1.25rem;
-  }
-  h2 {
     font-size: 1.0rem;
   }
+  h2 {
+    font-size: 0.85rem;
+  }
   h3 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   h4 {
     font-size: 0.8rem;
@@ -500,8 +501,10 @@
   footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0.25rem;
+    align-items: flex-start;
+    padding: 0.5rem 1rem; 
+    margin: 0 auto;
+    flex-wrap: wrap;
   }
 
   .footer-text {
